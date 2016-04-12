@@ -1,0 +1,2 @@
+\frac{{\sin{3}}^{4*{z}}}{\exp{y}}^{\sin{z}}}+{{{\tan{z}}*{\sin{y}}}^{4*{x}}*{4*{3}}}*{{{\sin{x}}*{\exp{y}}}*{\exp{3}}+{\cos{3}}}
+\frac{{sqrt{z}}*{\exp{4}}}{\cos{4}}*{5*{z}}}-{{{sqrt{z}}+{sqrt{4}}}-{\sin{z}}-{\tan{x}}}+\frac{{\sin{x}}*{\ln{y}}}{\ln{y}}^{\tan{x}}}

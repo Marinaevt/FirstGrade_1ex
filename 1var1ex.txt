@@ -1,0 +1,23 @@
+import random
+import math
+
+def generate():
+    num_tests = 10
+    random.seed()
+    tests = []
+    for k in range(num_tests):
+        x = random.randint(1, 100)
+        y = random.randint(1, 100)
+        z = random.uniform(1, 100)
+        tests.append("{} {} {}".format(x, y, z))
+    return tests
+
+def solve(dataset):
+    x, y, z = dataset.split()
+    x, y, z = float(x), float(y), float(z)
+    return str((((math.sqrt(z))*(math.exp(4)))/(math.cos(4))*(5*(z)))-(((math.sqrt(z))+(math.sqrt(4)))-(math.sin(z))-(math.tan(x)))+(((math.sin(x))*(math.log(y)))/(math.log(y))**(math.tan(x))))
+
+def check(reply, clue):
+    if abs(float(clue) - float(reply)) < 1:
+        return 1
+    return 0
