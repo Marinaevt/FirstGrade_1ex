@@ -1,4 +1,3 @@
-import math
 import random
 
 def GenFormula():
@@ -46,8 +45,6 @@ def GenFormula():
     formulas.append(latextemp)
     return formulas
 
-
-#fileformulaname = str(i) + "varFormula1ex.txt"
 f2 = open('formulas.txt', 'w')
 numVar = 2
 for i in range(numVar):
