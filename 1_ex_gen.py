@@ -44,15 +44,14 @@ def GenFormula():
     formulas.append(temp)
     formulas.append(latextemp)
     return formulas
-
 f2 = open('formulas.txt', 'w')
-numVar = 2
+numVar = 5
 for i in range(numVar):
-    filevarname = str(i) + "var1ex.txt"
+    filevarname = str(i) + "var1ex.py"
     f1 = open(filevarname, 'w')
-    fgen = open('1_ex_test_gen.py', 'r')
-    fsol = open('solvefile.txt', 'r')
-    fcheck = open('checkfile.txt', 'r')
+    fgen = open('ex_test_gen.py', 'r')
+    fsol = open('solvefile.py', 'r')
+    fcheck = open('checkfile.py', 'r')
     for line in fgen:
         f1.write(line)
     f1.write('\n')

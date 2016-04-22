@@ -15,7 +15,7 @@ def generate():
 def solve(dataset):
     x, y, z = dataset.split()
     x, y, z = float(x), float(y), float(z)
-    return str((((math.sin(3))**(4*(z)))/(math.exp(y))**(math.sin(z)))+(((math.tan(z))*(math.sin(y)))**(4*(x))*(4*(3)))*(((math.sin(x))*(math.exp(y)))*(math.exp(3))+(math.cos(3))))
+    return str((((math.log(8))**(6*(x)))-(math.sqrt(8))*(math.cos(y)))*(((math.tan(z))*(math.sin(8)))+(math.sin(y))**(math.sin(y)))+(((math.tan(y))-(math.sin(8)))-(math.sin(8))+(math.cos(8))))
 
 def check(reply, clue):
     if abs(float(clue) - float(reply)) < 1:
